@@ -60,7 +60,8 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
 
-$autoload['libraries'] = array();
+// $autoload['libraries'] = array();
+$autoload['libraries'] = array('session','Minisite','Localization','geoip/ipwrapper');
 
 
 /*
@@ -104,7 +105,8 @@ $autoload['helper'] = array();
 |
 */
 
-$autoload['config'] = array();
+/*$autoload['config'] = array();*/
+$autoload['config'] = array('minisite.config');
 
 
 /*
